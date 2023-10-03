@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springapp.SpringappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.206 s <<< FAILURE! - in com.example.springapp.SpringappApplicationTests
+testCreateProduct_ValidInput_ReturnsHttpStatusCreated  Time elapsed: 0.468 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.example.springapp.SpringappApplicationTests.testCreateProduct_ValidInput_ReturnsHttpStatusCreated(SpringappApplicationTests.java:43)
+
+getbyid  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.example.springapp.SpringappApplicationTests.getbyid(SpringappApplicationTests.java:58)
+
